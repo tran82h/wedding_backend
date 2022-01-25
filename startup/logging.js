@@ -28,6 +28,8 @@ module.exports = function() {
   winston.exceptions.handle(
     new winston.transports.File({
       filename: "./uncaughtException.log"
+
+      
     })
   );
 
